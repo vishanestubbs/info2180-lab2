@@ -109,8 +109,9 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-li{
+a{
     color:#4299E1;
+    text-decoration: none;
 }
 
 #AboutSection{
@@ -131,6 +132,7 @@ li{
     padding: 15px;
     border:2px;
     margin: 20px;
+    
 }
 
 #Monza{
@@ -172,4 +174,10 @@ li{
 #subtitle1, #subtitle2{
     color: #718096;
     margin-top:1px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
